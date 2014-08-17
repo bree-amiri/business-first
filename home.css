@@ -1,0 +1,181 @@
+
+#homebackground{
+  background: url("images/COFFEELINE-ENTRANCE.png") repeat;
+  background-position:absolute;
+  left:0;
+  top:0;
+  background-size:100%;
+  height :100%;
+  width:100%;
+}
+#header {
+  font: 50px  "Arial", Gadget, sans-serif ;
+  
+  color: #0F0A07;
+  text-shadow:2px 2px #2F1D0F;
+}
+#contain{
+  width:25%;
+  position:absolute;
+  left:70%;
+  top:20%;
+  text-align:center;
+}
+.footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+span{
+  color:#B37122;
+  color:linear-gradient(#72c41f, #5c9e19);
+    text-shadow:2px 2px #000;
+   font: 60px "Comic Sans MS", cursive, sans-serif ;
+}
+#logoleft{
+ position:absolute;
+ top:0px;
+ display:inline-block; 
+ padding:10px;
+
+
+  left:0px;
+ 
+}
+#logoleft a{
+font: 20px "Comic Sans MS", cursive, sans-serif ;
+color:#5F1D0F;
+text-shadow:1px 2px gray;
+}
+#logoleft a:hover{
+  font: 24px "Comic Sans MS", cursive, sans-serif ;
+color:#aF8D8F;
+text-shadow:1px 2px gray;
+}
+#exp {
+  line-height:50px;
+  
+}
+
+#orderbutton img{
+  width:150px;
+  opacity:80%;
+  border:1px solid black;
+  border-radius:5%;
+  
+}
+#orderbutton img:hover{
+  width:170px;
+  opacity:100%;
+  border-color:#926055;
+}
+.header-nav {
+position:absolute;
+right:0;
+
+  
+}
+.home-button{
+  background-color:#210F05;
+ border:1px solid black;
+}
+.home-button:hover{
+  background-color:#210F05;
+  color:#B37122;
+ border:1px solid #926055;
+ font-size:20px;
+}
+.navbar{
+ 
+  width:100%;
+  height:40px;
+  display:inline-block;
+}
+.list-nav li{
+  display:inline-block;
+  margin:10px;
+float:right;
+}
+#listright{
+  display:absolute;
+  right:0;
+margin-top:-10px;
+  display:inline-block;
+  float:right;
+}
+a{
+  text-decoration:none;
+  font: 60px "Arial", cursive, sans-serif ;
+  font-size:18px;
+}
+header a  {
+  color:#a0a0a0;
+font-family:  Arial, sans-serif;
+font-size:15px;
+margin-left:20px;
+}
+
+header a:hover {
+color:gold;
+font-size:17px;
+}
+
+
+#backheader{
+  background:black;
+  width:100%;
+  height:60px;
+  margin-top:-10px;
+  margin-left:-10px;
+ 
+}
+.exp{
+
+font-family:arial;
+ font-size: 1.2em;
+letter-spacing: -1px;
+margin-bottom: 30px;
+text-align: center;
+font-weight: normal;
+color: #999;
+line-height: 50px;
+}
+.exp a {
+  color:#428bca;
+  font-family:inherit;
+}
+.exp a:hover {
+  text-decoration:underline;
+
+}
+
+button a{
+  color: #fff;
+  font-weight:thin;
+
+}
+
+button{
+background-color:  #210F05;
+border-color: #965104;
+width:150px;
+height:50px;
+font-size:10px;
+border-radius:5px;
+padding: 6px 12px;
+margin-bottom: 0;
+font-weight: normal;
+line-height: 1.5;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+}
+
+button:hover{
+  background-color: #210F05;
+color: #B37122;
+border: 1px solid #926055;
+font-size: 20px;
+}
